@@ -1,0 +1,30 @@
+#!/bin/bash
+echo "-- Menu --";
+echo "	[1] Midnight commander";
+echo "	[2] Vi";
+echo "	[3] Git help";
+echo "	[q] Quit";
+while true; do 
+	echo -n "Enter command: ";
+	read command;
+	case $command in
+	1)
+		mc;
+		break;
+		;;
+	2)
+		vi;
+		break;
+		;;
+	3)
+		git --help;
+		break;
+		;;
+	"q")
+		exit;
+		;;
+	esac;
+	echo "Wrong command!";
+done
+		
+
