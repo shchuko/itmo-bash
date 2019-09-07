@@ -1,0 +1,6 @@
+#!/bin/bash
+if [[ $1 = $2 ]]; then 
+	echo "Arguments are equal";
+else 
+	echo "Argumants are different";
+fi

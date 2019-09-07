@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "[q]+Enter to quit";
+buffer="";
+while [ "$a" != "q" ] 
+do
+	read a;
+	buffer="${buffer} ${a}";
+done
+echo "Entered:";
+echo $buffer
