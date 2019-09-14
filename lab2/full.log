@@ -1,0 +1,143 @@
+[  5721.340] (Information) Module ABI versions:
+[  5721.341] (Information) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[  5721.342] (Information) xfree86: Adding drm device (/dev/dri/card0)
+[  5721.344] (Information) LoadModule: "glx"
+[  5721.344] (Information) Loading /usr/lib/nvidia/xorg/libglx.so
+[  5721.360] (Information) Module glx: vendor="NVIDIA Corporation"
+[  5721.361] (Information) NVIDIA GLX Module  430.40  Sun Jul 21 05:00:26 CDT 2019
+[  5721.361] (Information) LoadModule: "nvidia"
+[  5721.361] (Information) Loading /usr/lib/xorg/modules/drivers/nvidia_drv.so
+[  5721.364] (Information) Module nvidia: vendor="NVIDIA Corporation"
+[  5721.364] (Information) LoadModule: "mouse"
+[  5721.365] (Information) Loading /usr/lib/xorg/modules/input/mouse_drv.so
+[  5721.365] (Information) Module mouse: vendor="X.Org Foundation"
+[  5721.365] (Information) LoadModule: "kbd"
+[  5721.365] (Information) Loading /usr/lib/xorg/modules/input/kbd_drv.so
+[  5721.366] (Information) Module kbd: vendor="X.Org Foundation"
+[  5721.366] (Information) NVIDIA dlloader X Driver  430.40  Sun Jul 21 05:01:54 CDT 2019
+[  5721.366] (Information) NVIDIA Unified Driver for all Supported NVIDIA GPUs
+[  5721.366] (Information) Loading sub module "fb"
+[  5721.366] (Information) LoadModule: "fb"
+[  5721.366] (Information) Loading /usr/lib/xorg/modules/libfb.so
+[  5721.367] (Information) Module fb: vendor="X.Org Foundation"
+[  5721.367] (Information) Loading sub module "wfb"
+[  5721.367] (Information) LoadModule: "wfb"
+[  5721.367] (Information) Loading /usr/lib/xorg/modules/libwfb.so
+[  5721.368] (Information) Module wfb: vendor="X.Org Foundation"
+[  5721.368] (Information) Loading sub module "ramdac"
+[  5721.368] (Information) LoadModule: "ramdac"
+[  5721.368] (Information) Module "ramdac" already built-in
+[  5721.368] (Information) NVIDIA(0): Creating default Display subsection in Screen section
+[  5722.127] (Information) NVIDIA(0): NVIDIA GPU GeForce MX150 (GP108-A) at PCI:1:0:0 (GPU-0)
+[  5722.127] (Information) NVIDIA(0): Detected PCI Express Link width: 4X
+[  5722.127] (Information) NVIDIA(0): Validated MetaModes:
+[  5722.127] (Information) NVIDIA(0):     "NULL"
+[  5722.127] (Information) NVIDIA(0): Virtual screen size determined to be 640 x 480
+[  5722.127] (Information) NVIDIA: Using 24576.00 MB of virtual memory for indirect memory
+[  5722.127] (Information) NVIDIA:     access.
+[  5722.132] (Information) NVIDIA(0): ACPI: failed to connect to the ACPI event daemon; the daemon
+[  5722.132] (Information) NVIDIA(0):     may not be running or the "AcpidSocketPath" X
+[  5722.132] (Information) NVIDIA(0):     configuration option may not be set correctly.  When the
+[  5722.132] (Information) NVIDIA(0):     ACPI event daemon is available, the NVIDIA X driver will
+[  5722.132] (Information) NVIDIA(0):     try to use it to receive ACPI event notifications.  For
+[  5722.132] (Information) NVIDIA(0):     details, please see the "ConnectToAcpid" and
+[  5722.132] (Information) NVIDIA(0):     "AcpidSocketPath" X configuration options in Appendix B: X
+[  5722.132] (Information) NVIDIA(0):     Config Options in the README.
+[  5722.154] (Information) NVIDIA(0): Setting mode "NULL"
+[  5722.158] (Information) Loading sub module "dri2"
+[  5722.158] (Information) LoadModule: "dri2"
+[  5722.158] (Information) Module "dri2" already built-in
+[  5722.158] (Information) NVIDIA(0): [DRI2] Setup complete
+[  5722.158] (Information) NVIDIA(0): [DRI2]   VDPAU driver: nvidia
+[  5722.158] (Information) Initializing extension Generic Event Extension
+[  5722.158] (Information) Initializing extension SHAPE
+[  5722.158] (Information) Initializing extension MIT-SHM
+[  5722.158] (Information) Initializing extension XInputExtension
+[  5722.158] (Information) Initializing extension XTEST
+[  5722.158] (Information) Initializing extension BIG-REQUESTS
+[  5722.159] (Information) Initializing extension SYNC
+[  5722.159] (Information) Initializing extension XKEYBOARD
+[  5722.159] (Information) Initializing extension XC-MISC
+[  5722.159] (Information) Initializing extension SECURITY
+[  5722.159] (Information) Initializing extension XFIXES
+[  5722.159] (Information) Initializing extension RENDER
+[  5722.159] (Information) Initializing extension RANDR
+[  5722.159] (Information) Initializing extension COMPOSITE
+[  5722.159] (Information) Initializing extension DAMAGE
+[  5722.160] (Information) Initializing extension MIT-SCREEN-SAVER
+[  5722.160] (Information) Initializing extension DOUBLE-BUFFER
+[  5722.160] (Information) Initializing extension RECORD
+[  5722.160] (Information) Initializing extension DPMS
+[  5722.160] (Information) Initializing extension Present
+[  5722.160] (Information) Initializing extension DRI3
+[  5722.160] (Information) Initializing extension X-Resource
+[  5722.160] (Information) Initializing extension XVideo
+[  5722.160] (Information) Initializing extension XVideo-MotionCompensation
+[  5722.160] (Information) Initializing extension GLX
+[  5722.161] (Information) Initializing extension GLX
+[  5722.161] (Information) Indirect GLX disabled.
+[  5722.161] (Information) Initializing extension XFree86-VidModeExtension
+[  5722.161] (Information) Initializing extension XFree86-DGA
+[  5722.161] (Information) Initializing extension XFree86-DRI
+[  5722.161] (Information) Initializing extension DRI2
+[  5722.161] (Information) Initializing extension NV-GLX
+[  5722.161] (Information) Initializing extension NV-CONTROL
+[  5722.195] (Information) Using input driver 'mouse' for '<default pointer>'
+[  5722.267] (Information) <default pointer>: Setting Device option to "/dev/input/mice"
+[  5722.327] (Information) XINPUT: Adding extended input device "<default pointer>" (type: MOUSE, id 6)
+[  5722.327] (Information) <default pointer>: Setting mouse protocol to "ExplorerPS/2"
+[  5722.626] (Information) <default pointer>: ps2EnableDataReporting: succeeded
+[  5722.626] (Information) Using input driver 'kbd' for '<default keyboard>'
+[  5722.627] (Information) XINPUT: Adding extended input device "<default keyboard>" (type: KEYBOARD, id 7)
+[  5722.655] (Information) config/udev: Adding input device Power Button (/dev/input/event2)
+[  5722.655] (Information) AutoAddDevices is off - not adding device.
+[  5722.656] (Information) config/udev: Adding input device Video Bus (/dev/input/event9)
+[  5722.656] (Information) AutoAddDevices is off - not adding device.
+[  5722.657] (Information) config/udev: Adding input device Power Button (/dev/input/event0)
+[  5722.657] (Information) AutoAddDevices is off - not adding device.
+[  5722.658] (Information) config/udev: Adding input device Lid Switch (/dev/input/event1)
+[  5722.658] (Information) AutoAddDevices is off - not adding device.
+[  5722.659] (Information) config/udev: Adding input device Video Bus (/dev/input/event10)
+[  5722.660] (Information) AutoAddDevices is off - not adding device.
+[  5722.660] (Information) config/udev: Adding drm device (/dev/dri/card0)
+[  5722.660] (Information) xfree86: Adding drm device (/dev/dri/card0)
+[  5722.662] (Information) config/udev: Adding input device XiaoMi USB 2.0 Webcam: XiaoMi U (/dev/input/event8)
+[  5722.662] (Information) AutoAddDevices is off - not adding device.
+[  5722.663] (Information) config/udev: Adding input device ETD2303:00 04F3:3083 Touchpad (/dev/input/event5)
+[  5722.663] (Information) AutoAddDevices is off - not adding device.
+[  5722.665] (Information) config/udev: Adding input device ETD2303:00 04F3:3083 Touchpad (/dev/input/mouse0)
+[  5722.665] (Information) AutoAddDevices is off - not adding device.
+[  5722.666] (Information) config/udev: Adding input device Intel HID events (/dev/input/event6)
+[  5722.666] (Information) AutoAddDevices is off - not adding device.
+[  5722.666] (Information) config/udev: Adding input device HDA Intel PCH Headphone (/dev/input/event11)
+[  5722.666] (Information) AutoAddDevices is off - not adding device.
+[  5722.667] (Information) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=3 (/dev/input/event12)
+[  5722.667] (Information) AutoAddDevices is off - not adding device.
+[  5722.668] (Information) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=7 (/dev/input/event13)
+[  5722.668] (Information) AutoAddDevices is off - not adding device.
+[  5722.669] (Information) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=8 (/dev/input/event14)
+[  5722.669] (Information) AutoAddDevices is off - not adding device.
+[  5722.670] (Information) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=9 (/dev/input/event15)
+[  5722.670] (Information) AutoAddDevices is off - not adding device.
+[  5722.671] (Information) config/udev: Adding input device HDA Intel PCH HDMI/DP,pcm=10 (/dev/input/event16)
+[  5722.671] (Information) AutoAddDevices is off - not adding device.
+[  5722.672] (Information) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event3)
+[  5722.672] (Information) AutoAddDevices is off - not adding device.
+[  5722.673] (Information) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/event7)
+[  5722.673] (Information) AutoAddDevices is off - not adding device.
+[  5722.674] (Information) config/udev: Adding input device ETPS/2 Elantech Touchpad (/dev/input/mouse1)
+[  5722.674] (Information) AutoAddDevices is off - not adding device.
+[  5722.675] (Information) config/udev: Adding input device PC Speaker (/dev/input/event4)
+[  5722.675] (Information) AutoAddDevices is off - not adding device.
+[  5726.337] (Information) UnloadModule: "kbd"
+[  5726.337] (Information) UnloadModule: "mouse"
+[  5726.394] (Information) NVIDIA(GPU-0): Deleting GPU-0
+[  5726.394] (Information) Server terminated successfully (0). Closing log file.
+[  5721.340] (Warning) The directory "/usr/share/fonts/OTF" does not exist.
+[  5721.340] (Warning) The directory "/usr/share/fonts/Type1" does not exist.
+[  5721.340] (Warning) `fonts.dir' not found (or not valid) in "/usr/share/fonts/100dpi".
+[  5721.340] (Warning) `fonts.dir' not found (or not valid) in "/usr/share/fonts/75dpi".
+[  5721.344] (Warning) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[  5722.127] (Warning) NVIDIA(0): Unable to get display device for DPI computation.
+[  5722.158] (Warning) NVIDIA(0): Option "NoLogo" is not used
+[  5722.195] (Warning) <default pointer>: No Device specified, looking for one...
