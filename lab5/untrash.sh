@@ -44,6 +44,12 @@ for line in $(grep -sE "^(/.+)+/$1:.*$" $logpath); do
 		restoreflag=$yesnoflag;	
 		
 			
+		if [[ $restoreflag = true && ! -d $dirpath ]]; then
+			echo "File location directory not found. Restoring to $HOME"; 
+			dirpath=$HOME;
+			fullpath=$dirpath/$1;
+		fi;
+
 		if [[ $restoreflag == true && -e $fullpath ]]; then
 			readYesNo "File $fullpath already exists. Overwrite (y/N)?";
 			if [[ $yesnoflag == true ]]; then
@@ -54,9 +60,6 @@ for line in $(grep -sE "^(/.+)+/$1:.*$" $logpath); do
 			fi;
 		fi;
 		
-		if [[ $restoreflag = true && ! -d $dirpath ]]; then
-			mkdir $dirpath;
-		fi;
 
 		if [[ $restoreflag == true ]]; then
 			ln $trashedpath $fullpath;
