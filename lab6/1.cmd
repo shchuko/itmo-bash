@@ -1,19 +1,19 @@
 @ECHO OFF 
-chcp 1251  
 
 if not exist C:\LAB6 md C:\LAB6
 
 set pwd=%cd%
 cd /D C:\LAB6
-systeminfo > systeminfo.txt
 
-wmic logicaldisk get description,name > diskinfo.txt
+wmic os get Caption > caption.txt 
+wmic os get FreePhysicalMemory,TotalVisibleMemorySize > memoryinfo.txt 
+wmic logicaldisk get name,description > diskinfo.txt
 
 if not exist TEST md TEST
 copy . TEST
 
-copy TEST\systeminfo.txt+TEST\diskinfo.txt concatres.txt
+copy TEST\*.txt concatres.txt
 
-del systeminfo.txt, diskinfo.txt
+del caption.txt, memoryinfo.txt, diskinfo.txt
 
 cd /D %pwd%
